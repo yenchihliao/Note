@@ -12,6 +12,8 @@ ESC = 27 = \x1b = \033
 1~10: style
 30~37, 90~97: foreground
 40~47, 100~107: background
+"\x1b[%d, %d, %dm"
+ERROR := "\x1b[33m %s\x1b[0m"
 */
 
 
