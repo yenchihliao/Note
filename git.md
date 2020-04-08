@@ -17,3 +17,24 @@ git revert [WANTED]
 git revert [UNWANTED]
 git cherry-pick
 ```
+* Change branch name
+```bash
+git branch -m [new_branch_name]
+```
+* To browse sorted tag
+```bash
+git tag --sort=v:refname
+```
+or
+```bash
+git tag --sort=creatordate
+```
+* When working on a fork
+  * to keep up with the original repo
+  ```bash
+  git pull [original_repo_url] [branch]
+  ```
+  * to also keep up with tags in original repo
+  ```bash
+  git fetch --tags [original_repo_url]
+  ```
