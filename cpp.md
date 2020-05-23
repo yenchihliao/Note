@@ -3,3 +3,5 @@
   * returns const value(first const)
   * modifies no attribute of the class(second const)
   * &&/& implies the function only works when it's a rvalue/lvalue
+* Smart pointers such as `unique_ptr`, `shared_ptr`, and `weak_ptr` is the pointers in c++ that has the ability to do garbage collection.
+  * weak_ptr: a pointer that points to an address without affecting its lifetime.
