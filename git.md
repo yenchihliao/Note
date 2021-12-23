@@ -38,3 +38,5 @@ git tag --sort=creatordate
   ```bash
   git fetch --tags [original_repo_url]
   ```
+* Change repository cloned with https int SSH: (change remote urls)
+`git remote set-url origin git@github.com:[Path]/[Repo].git`
